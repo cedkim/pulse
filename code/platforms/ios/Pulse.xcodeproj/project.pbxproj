@@ -13,6 +13,11 @@
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		BFEDF5938B76476E898503BD /* CDVHeartBeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEDC3BA1C8D4F508C2A03A3 /* CDVHeartBeat.m */; };
+		305B0FD532FF4224B47F17A2 /* CDVHeartBeatDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C5AEE792E348E0850D195B /* CDVHeartBeatDetection.m */; };
+		A3282DEF309F4FB99AD2F45C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B487D5FFB180468C81196A05 /* AVFoundation.framework */; };
+		D2DD6DC6F4AE4E9DB7CA0AF8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F610E02CE75A4F9FA343198D /* CoreVideo.framework */; };
+		5A045119A6D94695AA081EBC /* NativeStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B26114F8E7E4ED69C8559ED /* NativeStorage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,14 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Pulse/config.xml"; sourceTree = "<group>"; };
+		5FEDC3BA1C8D4F508C2A03A3 /* CDVHeartBeat.m */ = {isa = PBXFileReference; name = "CDVHeartBeat.m"; path = "com.litekey.cordova.plugins.heartbeat/HeartBeatPlugin/CDVHeartBeat.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		94C5AEE792E348E0850D195B /* CDVHeartBeatDetection.m */ = {isa = PBXFileReference; name = "CDVHeartBeatDetection.m"; path = "com.litekey.cordova.plugins.heartbeat/HeartBeatPlugin/CDVHeartBeatDetection.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		F6CFE42ECC124AA7B52BC519 /* CDVHeartBeat.h */ = {isa = PBXFileReference; name = "CDVHeartBeat.h"; path = "com.litekey.cordova.plugins.heartbeat/HeartBeatPlugin/CDVHeartBeat.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		4B58C73C88114BC986AC7E25 /* CDVHeartBeatDetection.h */ = {isa = PBXFileReference; name = "CDVHeartBeatDetection.h"; path = "com.litekey.cordova.plugins.heartbeat/HeartBeatPlugin/CDVHeartBeatDetection.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B487D5FFB180468C81196A05 /* AVFoundation.framework */ = {isa = PBXFileReference; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		F610E02CE75A4F9FA343198D /* CoreVideo.framework */ = {isa = PBXFileReference; name = "CoreVideo.framework"; path = "System/Library/Frameworks/CoreVideo.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		9B26114F8E7E4ED69C8559ED /* NativeStorage.m */ = {isa = PBXFileReference; name = "NativeStorage.m"; path = "cordova-plugin-nativestorage/NativeStorage.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		B3F9417562EF49B8B3E65218 /* NativeStorage.h */ = {isa = PBXFileReference; name = "NativeStorage.h"; path = "cordova-plugin-nativestorage/NativeStorage.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +81,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				A3282DEF309F4FB99AD2F45C /* AVFoundation.framework in Frameworks */,
+				D2DD6DC6F4AE4E9DB7CA0AF8 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +153,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B487D5FFB180468C81196A05 /* AVFoundation.framework */,
+				F610E02CE75A4F9FA343198D /* CoreVideo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,6 +181,12 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				5FEDC3BA1C8D4F508C2A03A3 /* CDVHeartBeat.m */,
+				94C5AEE792E348E0850D195B /* CDVHeartBeatDetection.m */,
+				F6CFE42ECC124AA7B52BC519 /* CDVHeartBeat.h */,
+				4B58C73C88114BC986AC7E25 /* CDVHeartBeatDetection.h */,
+				9B26114F8E7E4ED69C8559ED /* NativeStorage.m */,
+				B3F9417562EF49B8B3E65218 /* NativeStorage.h */,
 			);
 			name = Plugins;
 			path = "Pulse/Plugins";
@@ -288,6 +311,9 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				BFEDF5938B76476E898503BD /* CDVHeartBeat.m in Sources */,
+				305B0FD532FF4224B47F17A2 /* CDVHeartBeatDetection.m in Sources */,
+				5A045119A6D94695AA081EBC /* NativeStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

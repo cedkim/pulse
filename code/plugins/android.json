@@ -9,6 +9,12 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "today.cedric.pulse"
+    },
+    "com.litekey.cordova.plugins.heartbeat": {
+      "PACKAGE_NAME": "today.cedric.pulse"
+    },
+    "cordova-plugin-nativestorage": {
+      "PACKAGE_NAME": "today.cedric.pulse"
     }
   },
   "dependent_plugins": {}

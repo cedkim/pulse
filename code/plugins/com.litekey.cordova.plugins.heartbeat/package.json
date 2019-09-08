@@ -1,0 +1,43 @@
+{
+  "_from": "git+https://github.com/alexandreMonterrosoBFH/heartbeat-cordova-plugin.git",
+  "_id": "heartbeat-cordova-plugin@0.2.2",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/heartbeat-cordova-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/alexandreMonterrosoBFH/heartbeat-cordova-plugin",
+    "rawSpec": "https://github.com/alexandreMonterrosoBFH/heartbeat-cordova-plugin",
+    "saveSpec": "git+https://github.com/alexandreMonterrosoBFH/heartbeat-cordova-plugin.git",
+    "fetchSpec": "https://github.com/alexandreMonterrosoBFH/heartbeat-cordova-plugin.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/alexandreMonterrosoBFH/heartbeat-cordova-plugin.git#773e6d938c53a3568c1f4e67491ee015241f00a6",
+  "_spec": "https://github.com/alexandreMonterrosoBFH/heartbeat-cordova-plugin",
+  "_where": "C:\\Users\\wolke\\Documents\\GitHub\\pulse\\code",
+  "bugs": {
+    "url": "https://github.com/alexandreMonterrosoBFH/heartbeat-cordova-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "heartbeat-cordova-plugin",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Heart Beat Monitor",
+  "homepage": "https://github.com/alexandreMonterrosoBFH/heartbeat-cordova-plugin#readme",
+  "name": "heartbeat-cordova-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandreMonterrosoBFH/heartbeat-cordova-plugin.git"
+  },
+  "version": "0.2.2"
+}
