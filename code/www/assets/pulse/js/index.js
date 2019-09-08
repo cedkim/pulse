@@ -1,0 +1,1 @@
+navigator.health.isAvailable(function(){navigator.health.requestAuthorization([{write: ['heart_rate']}], function(){}, function(){window.location.href = 'error.html';});}, function(){navigator.health.promptInstallFit(function(){}, function(){window.location.href = 'error.html';});});
